@@ -31,7 +31,11 @@ release = 'HYAKU.000.01'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+		'sphinx.ext.graphviz',
+    'sphinx.ext.autodoc',
+    'rst2pdf.pdfbuilder'
 ]
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
